@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+}
+
+.border{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-width: 20px;
+    border-color: brown;
+}
+
+.bordaimagem1{
+    border: 20px solid transparent;
+    margin: 10px;
+    border-image: url(leonardo-da-vinci-e1634382367389.jpg) 25% round;
+    width: 150px;
+    height: 150px;
+}
+
+.bordaimagem2{
+    border: 20px solid transparent;
+    margin: 10px;
+    border-image: url(leonardo-da-vinci-e1634382367389.jpg) 50% round;
+    width: 150px;
+    height: 150px;
+}
+
+.bordaimagem3{
+    border: 20px solid transparent;
+    margin: 10px;
+    border-image: url(leonardo-da-vinci-e1634382367389.jpg) 40% stretch;
+    width: 150px;
+    height: 150px;
+}
+
+.bordaimagem4{
+    border: 20px solid transparent;
+    margin: 10px;
+    border-image: url(leonardo-da-vinci-e1634382367389.jpg) 100% round;
+    width: 150px;
+    height: 150px;
+}
+
+.bordaimagem5{
+    border: 20px solid transparent;
+    margin: 10px;
+    border-image: url(leonardo-da-vinci-e1634382367389.jpg) 25% stretch;
+    width: 150px;
+    height: 150px;
+}
+
+.bordaimagem6{
+    border: 20px solid transparent;
+    margin: 10px;
+    border-image: url(leonardo-da-vinci-e1634382367389.jpg) 40% repeat;
+    width: 150px;
+    height: 150px;
+}
